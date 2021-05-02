@@ -1,0 +1,497 @@
+
+@media screen and (max-width : 1500px) {
+    body {
+        position: relative;
+        display: block;
+        width: 700px;
+        height: 1103px;
+        box-shadow: 7px 7px 19px 4px grey;
+        margin: 10 auto;
+        border-width: 1px 1px 1px 1px;
+        border-style: dotted;
+        padding: 0px;
+    }
+    .head {
+        display: block;
+        width: 100%;
+        height: 184px;
+        position: relative;
+        background-color: #565656;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+    }
+    .subHead {
+        display: block;
+        width: 100%;
+        height: 27px;
+        position: relative;
+        background-color: #565656;
+        margin: 14px 0px 0px 0px;
+        padding: 0;
+        border: 0;
+        z-index: -1;
+    }
+    .img {
+        border-radius: 50% 52% 50% 52%;
+        height: 143px;
+        width: 148px;
+        position: absolute;
+        margin: 7% 0 0 39%;
+        border-style: dotted;
+        border-color: #f8be28;
+    }
+    .textSpan {
+        background-color: #f8be28;
+        font-size: 38px;
+        margin: 24% 0% 0% 31%;
+        position: absolute;
+        text-align: center;
+        padding: 3px 4px 0px 4px;
+        border-radius: 6px;
+        color: #594312;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 300px;
+        display: inline-block;
+        word-break: break-all;
+    }
+    .subTextSpan {
+        width: 30%;
+        height: 6%;
+        font-size: 10px;
+        margin: 19% 0 0% 23%;
+        position: relative;
+        text-align: center;
+        padding: 9px 0px 0px 0px;
+        border-radius: 6px;
+        font-weight: bold;
+        color: #565656;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subTitle {
+        width: 100%;
+        height: 24px;
+        border-bottom: solid 2px lightgray;
+        box-sizing: border-box;
+        margin: 1px 0px 0px 0px;
+        padding: 6px 0px 1px 0px;
+
+    }
+    .size {
+        height:147px;
+    }
+    .body {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+        /*background-color: wheat;*/
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        overflow:auto; 
+        /*column-count: 2; */
+    }
+    .leftCol {
+        width: 45%;
+        float: left;
+        text-align: center;
+        border-right-color: grey;
+        border-right-style: solid;
+    }
+    .rightCol {
+        width: 45%;
+        text-align: center;
+        float: left;
+
+    }
+    .column {
+        display: block;
+        width: 50%;
+        margin : 1px;
+        padding: 1px;
+        border: 0;
+        float: left;
+    }
+    .column1 {
+        display: block;
+        width: 50%;
+        margin : 1px;
+        padding: 1px;
+        border: 0;
+        float: right;
+    }
+    .profile {
+        padding: 7px;
+        margin: 13px 0px 0px 12px;
+        border: 0px;
+        color: #565656;
+        font-family: Arial, Helvetica, sans-serif;
+        clear: both;
+
+    }
+    .circle-icon {
+        background: grey;
+        padding: 3px;
+        width: 16px;
+        border-radius: 50% 52% 50% 52%;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        color: #f8be28;
+        text-align: center;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+    .profileTitle {
+        padding: 0px;
+        margin: 0px; 
+        border: 0px;
+        width: 100%;
+        text-align: left;
+        float: left;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .fa-user,.fa-flask,.fa-suitcase {
+        background: grey;
+    }
+    .profileText {
+        font-size: 11px;
+        padding: 0px;
+        margin: 1px;
+        border: 1px;  
+    }
+    .skills {
+        text-align: right;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: white;
+      }
+    .iconStyle {
+        border-style: dotted;
+        padding: 2px;
+        border-color: #f8be28;
+        width: 22px;
+        border-radius: 50%;
+        overflow: hidden;
+    }  
+    .bar1 {
+        width: 90%;
+        height: 10px;
+        font-size: 12px;
+        background-image: linear-gradient(45deg, #f8be28, transparent);
+    }
+    .personal {
+        width:52%;
+    }
+    .skillLeftName {
+        color:black;
+        font-size:12px;
+        float: left;
+    
+    }
+
+    .barH {
+        height: 12px;
+    }
+    .bar2 {
+        width: 60%;
+        height: 10px;
+        font-size: 12px;
+        background-image: linear-gradient(45deg, #f8be28, transparent);
+    }
+    .bar3 {
+        width: 70%;
+        height: 10px;
+        font-size: 12px;
+        background-image: linear-gradient(45deg, #f8be28, transparent);
+    }
+    skillBlock {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+    skillListBlock {
+        overflow: auto;
+        width: 100%;
+        clear: both;
+    }
+    .alignList {
+        text-align: left;
+        padding-bottom: 7px;
+    }
+    .bullets {
+        display: grid;
+        width: 100%;
+        font-size: 12px;
+        word-wrap: break-word;
+        padding: auto;
+    }
+    .skillName {
+        text-align: center;
+        color:black;
+        font-size: 16px;
+        clear: both;
+    }
+    .skillLeft {
+        float: left;
+        width: 45%;
+    }
+    .skillRight {
+        float:right;
+        width:45%;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    body {
+        position: relative;
+        display: block;
+        width: 300px;
+        height: 480px;
+        box-shadow: 7px 7px 19px 4px grey;
+        margin: 10 auto;
+        border-width: 1px 1px 1px 1px;
+        border-style: dotted;
+        padding: 0px;
+    }
+    .head {
+        display: block;
+        width: 100%;
+        height: 77px;
+        position: relative;
+        background-color: #565656;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+    }
+    .subHead {
+        display: block;
+        width: 100%;
+        height: 10px;
+        position: relative;
+        background-color: #565656;
+        margin: 6px 0px 0px 0px;
+        padding: 0;
+        border: 0;
+        z-index: -1;
+    }
+    .img {
+        border-radius: 50% 52% 50% 52%;
+        height: 53px;
+        width: 54px;
+        position: absolute;
+        margin: 9% 0 0 39%;
+        border-style: dotted;
+        border-color: #f8be28;
+    }
+    .textSpan {
+        background-color: #f8be28;
+        font-size: 11px;
+        margin: 24% 0% 0% 36%;
+        position: absolute;
+        text-align: center;
+        padding: 3px 4px 0px 4px;
+        border-radius: 6px;
+        color: #594312;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 77px;
+        display: inline-block;
+        word-break: break-all;
+    }
+    .subTextSpan {
+        width: 20%;
+        height: 6%;
+        font-size: 6px;
+        margin: 19% 0 0% 2%;
+        position: relative;
+        text-align: center;
+        padding: 9px 0px 0px 0px;
+        border-radius: 6px;
+        font-weight: bold;
+        color: #565656;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .subTitle {
+        width: 100%;
+        height: 20px;
+        border-bottom: solid 2px lightgray;
+        box-sizing: border-box;
+        margin: 1px 0px 0px 0px;
+        padding: 6px 0px 1px 0px;
+
+    }
+    .body {
+        display: block;
+        width: 100%;
+        height: 320px;
+        position: relative;
+        /*background-color: wheat;*/
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        overflow:auto; 
+        /*column-count: 2; */
+    }
+    .leftCol {
+        width: 45%;
+        float: left;
+        text-align: center;
+        border-right-color: grey;
+        border-right-style: solid;
+    }
+    .rightCol {
+        width: 45%;
+        text-align: center;
+        float: left;
+
+    }
+    .column {
+        display: block;
+        width: 50%;
+        margin : 1px;
+        padding: 1px;
+        border: 0;
+        float: left;
+    }
+    .column1 {
+        display: block;
+        width: 50%;
+        margin : 1px;
+        padding: 1px;
+        border: 0;
+        float: right;
+    }
+    .profile {
+        padding: 7px;
+        margin: 13px 0px 0px 12px;
+        border: 0px;
+        color: #565656;
+        font-family: Arial, Helvetica, sans-serif;
+        clear: both;
+
+    }
+    .circle-icon {
+        background: grey;
+        padding: 3px;
+        width: 16px;
+        border-radius: 50% 52% 50% 52%;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        color: #f8be28;
+        text-align: center;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+    .profileTitle {
+        padding: 0px;
+        margin: 0px; 
+        border: 0px;
+        width: 100%;
+        text-align: left;
+        float: left;
+    }
+    .name {
+        font-size: 11px;
+    }
+    .fa-user,.fa-flask,.fa-suitcase {
+        background: grey;
+    }
+    .profileText {
+        font-size: 7px;
+        padding: 0px;
+        margin: 1px;
+        border: 1px;  
+    }
+    .skills {
+        text-align: right;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: white;
+      }
+    .iconStyle {
+        border-style: dotted;
+        padding: 2px;
+        border-color: #f8be28;
+        width: 15px;
+        border-radius: 50%;
+        overflow: hidden;
+    }  
+    .bar1 {
+        width: 90%;
+        height: 10px;
+        font-size: 7px;
+        background-image: linear-gradient(45deg, #f8be28, transparent);
+    }
+    .personal {
+        width:54%;
+    }
+    .skillLeftName {
+        color:black;
+        font-size:07px;
+        float: left;
+    
+    }
+
+    .barH {
+        height: 7px;
+    }
+    .bar2 {
+        width: 60%;
+        height: 10px;
+        font-size: 7px;
+        background-image: linear-gradient(45deg, #f8be28, transparent);
+    }
+    .bar3 {
+        width: 70%;
+        height: 10px;
+        font-size: 7px;
+        background-image: linear-gradient(45deg, #f8be28, transparent);
+    }
+    skillBlock {
+        width: 100%;
+        display: block;
+        clear: both;
+    }
+    skillListBlock {
+        overflow: auto;
+        width: 100%;
+        clear: both;
+    }
+    .alignList {
+        text-align: left;
+        padding-bottom: 7px;
+    }
+    .bullets {
+        display: grid;
+        width: 100%;
+        font-size: 7px;
+        word-wrap: break-word;
+        padding: auto;
+    }
+    .skillName {
+        text-align: center;
+        color:black;
+        font-size: 7px;
+        clear: both;
+    }
+    .skillLeft {
+        float: left;
+        width: 45%;
+    }
+    .size {
+        height:1px;
+    }
+    .skillRight {
+        float:right;
+        width:45%;
+    }
+
+}
